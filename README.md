@@ -1,10 +1,13 @@
 # MiMo TTS Chat
 
-一个基于原生 HTML、CSS、JavaScript 实现的静态网页应用，用来调用 MiMo TTS 接口完成文本回复与语音合成。
+一个基于原生 `H5` 实现的静态网页应用，调用 MiMo TTS 接口实现文本语音合成。
 
-用户可以选择预置音色，输入文本或上传 `.txt` 文件，发送后可获取 `WAV` 音频
+可以选择预置音色，输入文本或上传 `.txt` 文件，发送后可获取 `WAV` 音频
 
 支持在线预览播放、下载音频
+
+## Site
+[http://tts.ichochy.com](http://tts.ichochy.com)
 
 ## 系统截图
 ### Mobile:
@@ -13,7 +16,7 @@
 ### PC:
 ![pc](https://tts.ichochy.com/screenshot/pc.png)
 
-## 信息
+## 信息 
 Blog：[http://ichochy.com](http://ichochy.com)   
 Email: [me@ichochy.com](mailto:me@ichochy.com)   
 GitHub：[https://github.com/ichochy/mimo-tts-chat](https://github.com/ichochy/mimo-tts-chat)   
