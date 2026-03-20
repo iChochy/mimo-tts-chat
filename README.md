@@ -2,7 +2,9 @@
 
 一个基于原生 HTML、CSS、JavaScript 实现的静态网页应用，用来调用 MiMo TTS 接口完成文本回复与语音合成。
 
-用户可以在浏览器中输入文本，选择预置音色，发送后获取文本响应与 WAV 音频，并支持在线播放、下载音频、上传 `.txt` 文件自动发送，以及浅色/深色主题切换。
+用户可以选择预置音色，输入文本或上传 `.txt` 文件，发送后可获取 `WAV` 音频
+
+支持在线预览播放、下载音频
 
 ## 系统截图
 ### Mobile:
@@ -10,6 +12,11 @@
 
 ### PC:
 ![pc](https://tts.ichochy.com/screenshot/pc.png)
+
+## 信息
+Blog：[http://ichochy.com](http://ichochy.com)   
+Email: [me@ichochy.com](mailto:me@ichochy.com)   
+GitHub：[https://github.com/ichochy/mimo-tts-chat](https://github.com/ichochy/mimo-tts-chat)   
 
 
 ## 功能特性
@@ -126,3 +133,11 @@ POST https://api.xiaomimimo.com/v1/chat/completions
 ## License
 
 本项目基于 [MIT License](https://opensource.org/licenses/MIT) 开源
+
+## 打赏
+
+80后码农×白血病(CMML)患者  
+工作已停，药费没停  
+如果项目对您有用，求打赏点生命值  
+
+![sponsor.jpg](https://image.ichochy.com/sponsor.jpg)
