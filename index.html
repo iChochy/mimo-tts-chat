@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiMo TTS Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title-group">
+                <h1>MiMo TTS Chat</h1>
+                <p class="subtitle">输入文本，一键生成语音与回复。</p>
+            </div>
+            <button id="themeToggle" type="button" aria-label="切换主题" title="切换主题">🌙</button>
+        </div>
+        <div class="settings">
+            <div class="setting-item">
+                <div class="setting-heading">
+                    <label for="apiKey">API Key</label>
+                </div>
+                <div class="setting-control">
+                    <input type="password" id="apiKey" placeholder="输入您的 MIMO_API_KEY">
+                    <a href="https://platform.xiaomimimo.com/#/console/api-keys" target="_blank" class="get-api-link">获取 Key</a>
+                </div>
+            </div>
+            <div class="setting-item">
+                <div class="setting-heading">
+                    <label for="voiceSelect">预置音色</label>
+                </div>
+                <select id="voiceSelect">
+                    <option value="mimo_default">MiMo-默认</option>
+                    <option value="default_zh">MiMo-中文女声</option>
+                    <option value="default_en">MiMo-英文女声</option>
+                </select>
+            </div>
+            <div class="setting-item">
+                <div class="setting-heading">
+                    <label for="textFileInput">TXT 文件</label>
+                </div>
+                <input type="file" id="textFileInput" accept=".txt,text/plain">
+                <span id="textFileName" class="file-name">未选择文件</span>
+            </div>
+        </div>
+
+        <div id="statusBar" class="status-bar" aria-live="polite">就绪</div>
+        <div id="chatWindow" class="chat-window"></div>
+
+        <div class="input-area">
+            <textarea id="userInput" placeholder="输入您想说的话..."></textarea>
+            <button id="sendBtn">发送并合成语音</button>
+        </div>
+
+        <div class="audio-player">
+            <audio id="audioElement" controls></audio>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2026 iChochy.</p>
+            <p>
+                <a href="https://ichochy.com" target="_blank">Blog</a> |
+                <a href="https://github.com/ichochy/mimo-tts-chat" target="_blank">GitHub</a> |
+                <a href="./sponsor.html" target="_blank">打赏支持</a>
+            </p>
+        </footer>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
