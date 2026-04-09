@@ -8,10 +8,11 @@
 
 ## MiMo TTS
 `MiMo TTS API 限免中`  
-获取 API KEY：[https://platform.xiaomimimo.com](https://platform.xiaomimimo.com/#/console/api-keys)
+获取 API KEY：[platform.xiaomimimo.com](https://platform.xiaomimimo.com/#/console/api-keys)
 
 ## Site
-[http://tts.ichochy.com](http://tts.ichochy.com)
+预览
+Demo：[http://tts.ichochy.com](http://tts.ichochy.com)
 
 ## 系统截图
 ### Mobile:
