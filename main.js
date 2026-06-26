@@ -293,7 +293,7 @@ async function requestTtsChat(apiKey, text) {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            model: 'mimo-v2-tts',
+            model: 'mimo-v2.5-tts',
             messages: [{ role: 'assistant', content: text }],
             audio: {
                 format: 'wav',
